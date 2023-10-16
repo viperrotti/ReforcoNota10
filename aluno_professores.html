@@ -34,9 +34,7 @@
                         <img src="img/Renata.jpg">
                         <p>Renata, professora de História</p>
                     </div>
-                    <div class="botao">
-                        <a href="">Agendar Aula</a>
-                    </div>
+                    <button>Agendar Aula</button>
                     <div class="botao">
                         <a href="">Conversar</a>
                     </div>
@@ -46,9 +44,7 @@
                         <img src="img/Carla.jpg">
                         <p>Carla, professora de Matemática</p>
                     </div>
-                    <div class="botao">
-                        <a href="">Agendar Aula</a>
-                    </div>
+                    <button>Agendar Aula</button>
                     <div class="botao">
                         <a href="">Conversar</a>
                     </div>
@@ -58,9 +54,7 @@
                         <img src="img/Paulo.jpg">
                         <p>Paulo, professor de Física</p>
                     </div>
-                    <div class="botao">
-                        <a href="">Agendar Aula</a>
-                    </div>
+                    <button>Agendar Aula</button>
                     <div class="botao">
                         <a href="">Conversar</a>
                     </div>
@@ -70,9 +64,7 @@
                         <img src="img/Emanuel.jpg">
                         <p>Emanuel, professor de Geografia</p>
                     </div>
-                    <div class="botao">
-                        <a href="">Agendar Aula</a>
-                    </div>
+                    <button>Agendar Aula</button>
                     <div class="botao">
                         <a href="">Conversar</a>
                     </div>
@@ -84,9 +76,7 @@
                         <img src="img/Barbara.jpg">
                         <p>Bárbara, professora de Química</p>
                     </div>
-                    <div class="botao">
-                        <a href="">Agendar Aula</a>
-                    </div>
+                    <button>Agendar Aula</button>
                     <div class="botao">
                         <a href="">Conversar</a>
                     </div>
@@ -96,9 +86,7 @@
                         <img src="img/Sergio.jpg">
                         <p>Sérgio, professor de Artes</p>
                     </div>
-                    <div class="botao">
-                        <a href="">Agendar Aula</a>
-                    </div>
+                    <button>Agendar Aula</button>
                     <div class="botao">
                         <a href="">Conversar</a>
                     </div>
@@ -108,9 +96,7 @@
                         <img src="img/Jessica.jpg">
                         <p>Jéssica, professora de Biologia</p>
                     </div>
-                    <div class="botao">
-                        <a href="">Agendar Aula</a>
-                    </div>
+                    <button>Agendar Aula</button>
                     <div class="botao">
                         <a href="">Conversar</a>
                     </div>
@@ -120,15 +106,27 @@
                         <img src="img/Marcio.jpg">
                         <p>Márcio, professor de Inglês</p>
                     </div>
-                    <div class="botao">
-                        <a href="">Agendar Aula</a>
-                    </div>
+                    <button>Agendar Aula</button>
                     <div class="botao">
                         <a href="">Conversar</a>
                     </div>
                 </div>
             </div>
         </section>
+        <div class="popup-wrapper">
+            <div class="popup">
+                <div class="popup-close">x</div>
+                <div class="popup-content">
+                    <h2>Agendar Aula</h2>
+                    <label for="appt">Escolha um dia para agendar a aula:</label>
+                    <input id="date" type="date" />
+                    <label for="appt">Escolha um horário para agendar a aula:</label>
+                    <input type="time" id="appt" name="appt" min="09:00" max="18:00" required />
+                    <a class="popup-link" onclick="Enviar()";>Agendar</a>
+                </div>
+            </div>
+        </div>
     </div>
+    <script src="script.js"></script> 
 </body>
 </html>
