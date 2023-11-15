@@ -6,7 +6,6 @@ function fazGet(url) {
 }
 
 function criaLinha(aula) {
-    console.log(aula)
     linha = document.createElement("tr");
     tdnomeProf = document.createElement("td");
     tdMateria = document.createElement("td");
@@ -33,9 +32,6 @@ function main() {
         let linha = criaLinha(element);
         tabela.appendChild(linha);
     });
-    // Para cada usuario
-        // criar uma linha
-        // adicionar na tabela
 }
 
 main()
