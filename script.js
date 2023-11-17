@@ -1,6 +1,5 @@
 var button = document.querySelector(".lista");
 var popup = document.querySelector(".popup-wrapper");
-var agenda = new Array();
 var professorId;
 
 function fazGet(url) {
@@ -99,14 +98,7 @@ function Enviar() {
   };
   fazPost("http://vps44051.publiccloud.com.br:5000/api/Agenda", body);
   alert('Obrigado, sua aula foi agendada para o dia ' + dataFormatada + ' às ' + time.value + 'h');
-  var novoDado = dataFormatada + ' - ' + time.value
-  agenda.push(novoDado)
 
-  let agendadas = 'Próximas Aulas \n';
-  for(let i = 0; i < agenda.length; i = i + 1 ) {
-      agendadas += agenda[i] + '\n';
-  }
-  alert(agendadas)
 }
 
 main();
