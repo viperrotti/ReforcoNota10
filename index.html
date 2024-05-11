@@ -4,31 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Reforço Nota 10!</title>
-    <link rel="stylesheet" href="style/aluno_index.css">
+    <link rel="stylesheet" href="style/index_login.css">
 </head>
 <body>
-    <div class="content">
-        <aside>
-            <a href="index.html"><h1>Reforço Nota 10</h1></a>
-            <div class="menu">
-                <a href="aluno_professores.html"><img src="img/professor.png">Professores</a>
-                <a href="alunos_agenda.html"><img src="img/calendario.png">Aulas Agendadas</a>
-                <a href="aluno_aulas.html"><img src="img/aula-de-video.png">Aulas Online</a>
-                <a href=""><img src="img/usuario.png">Perfil do Aluno</a>
+    <div class="card">
+        <div class="content">
+            <div class="welcome">
+                <!-- <h1>Seja bem vindo, Aluno!</h1> -->
+                <img src="img/login.png">
             </div>
-            <div class="line">
-            </div>
-            <div class="conta">
-                <a href=""><img src="img/definicoes.png">Conta</a>
-                <a href=""><img src="img/sair.png">Sair</a>
-            </div>
- 
-        </aside>
-        <div class="tira">
-        </div> 
-        <div class="welcome">
-            <h1>Seja bem vindo, Aluno!</h1>
-            <img src="img/Cartaz.png">
+            <section class="container-login" id="login">
+                <h3>Entre com seu usuário e senha</h3>
+                <div class="forms">
+                    <form>
+                        <label for="usuario">Usuário: </label>
+                        <input type="email" id="email" placeholder="exemplo@exemplo.com" required />
+                        <label for="password">Senha: </label>
+                        <input type="password" id="password" placeholder="senha"  required />
+                        <button>Enviar</button>
+                    </form>
+                </div>
+            </section>
         </div>
     </div>
 </body>

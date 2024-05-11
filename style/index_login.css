@@ -1,0 +1,110 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: black; */
+    background-image: url("/img/Cartaz3.png");      
+}
+
+.card{
+    display:flex;
+    justify-content: center;
+    background-image: none;
+
+}
+
+.content{
+    padding-top: 5vh;
+    display:flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 30vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    background-color: #f1f1f1;
+    border-left: 0.7rem solid #8F0505 ;
+    border-right: 0.7rem solid #8F0505 ;
+    background-image: none;
+}
+
+/* BODY */
+
+.welcome{
+    background-color: #f1f1f1;
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: none;
+}
+
+.welcome img{
+    width: 20vw;
+    margin-top: 3%;
+}
+
+
+.container-login{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    flex-direction: column;
+    margin-top: 9vh;
+    padding-top: 5vh;
+    background-color: #f1f1f1;
+    background-image: none;
+
+}
+
+.container-login h3{
+    background-color: #f1f1f1;
+    background-image: none;
+}
+.container-login label{
+    background-color: #f1f1f1;
+    background-image: none;
+}
+
+
+.forms{    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2vh;
+    background-color: #f1f1f1;
+    background-image: none;
+}
+
+.forms form{
+    background-color: #f1f1f1;
+    background-image: none;
+    width: 20vw;
+    /* height: 60vh; */
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: 0.8vw;
+}
+
+.forms input{
+    background-color:white;
+    background-image: none;
+    height: 4.5vh;
+    margin-top: 1vh;
+    margin-bottom: 3vh;
+    font-size: 0.8vw;
+    padding: 0.3rem;
+}
+
+.forms button {
+    background-color:#8F0505;
+    color: white;
+    border-radius: 3rem;
+    width: 10vw;
+    height: 4vh;
+    align-self: center;
+    background-image: none;
+
+}
+
