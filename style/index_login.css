@@ -97,7 +97,7 @@
     padding: 0.3rem;
 }
 
-.forms button {
+.button {
     background-color:#8F0505;
     color: white;
     border-radius: 3rem;
@@ -105,6 +105,8 @@
     height: 4vh;
     align-self: center;
     background-image: none;
-
+    text-decoration: none;
+    text-align: center;
+    padding:0.3rem;
 }
 
