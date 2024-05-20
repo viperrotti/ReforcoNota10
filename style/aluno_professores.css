@@ -116,7 +116,7 @@ aside h1{
 }
 
 .prof{
-    height:30vh;
+    height:31vh;
     background-color: #a6a6a6;
     padding: 3%;
     /* border: solid 1px red; */
@@ -211,4 +211,172 @@ button{
     right: 10px;
     cursor: pointer;
 
+}
+
+@media (max-width: 1117px) {
+    button {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 1095px) {
+    button {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 1028px) {
+    button {
+        font-size: 11px;
+    }
+}
+
+@media (max-width: 961px) {
+    button {
+        font-size: 10px;
+    }
+
+    .botao {
+        font-size: 15px
+    }
+}
+
+@media (max-width: 961px) {
+    button {
+        font-size: 9px;
+    }
+
+    .botao {
+        font-size: 13px
+    }
+}
+
+@media (max-width: 872px) {
+    .prof p {
+        font-size: 14px
+    }
+}
+
+@media (max-width: 827px) {
+    button {
+        font-size: 8px;
+    }
+
+    .botao {
+        font-size: 12px
+    }
+
+    aside h1 {
+        font-size: 1.5rem;
+    }
+
+    .menu {
+        width: 95%;
+    }
+}
+
+@media (max-width: 889px) {
+    .card {
+        width: 22%
+    }
+}
+
+@media (max-width: 714px) {
+    .card {
+        width: 30%
+    }
+
+    button {
+        font-size: 13px;
+    }
+
+    .botao {
+        font-size: 14px
+    }
+
+    .menu a {
+        font-size: 13px
+    }
+}
+
+@media (max-width : 611px) {
+    aside h1 {
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 590px) {
+    button {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 554px) {
+    button {
+        font-size: 10px;
+    }
+
+    aside h1 {
+        font-size: 1.1rem;
+    }
+
+    .menu img {
+        display: none
+    }
+}
+
+@media (max-width: 474px) {
+    button {
+        font-size: 9px;
+    }
+
+    .botao {
+        font-size: 12px
+    }
+
+    aside h1 {
+        font-size: 1rem;
+    }
+
+    .menu a {
+        font-size: 11px
+    }
+}
+
+@media (max-width: 404px) {
+    .card {
+        width: 50%
+    }
+
+    button {
+        font-size: 12px;
+    }
+
+    .botao {
+        font-size: 14px
+    }
+}
+
+@media (max-width: 381px) {
+    aside h1 {
+        font-size: 0.8rem;
+    }
+
+    .menu a {
+        font-size: 10px
+    }
+
+    .conta a {
+        font-size: 13px
+    }
+}
+
+@media (max-width: 348px) {
+    aside h1 {
+        font-size: 0.8rem;
+    }
+
+    .menu a {
+        font-size: 8px
+    }
 }
