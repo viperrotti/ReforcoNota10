@@ -7,6 +7,7 @@ Link da API: http://vps44051.publiccloud.com.br:5000/swagger/index.html </br>
 GitHub da API: https://github.com/viperrotti/API_Agenda </br>
 
 Nota: Revisita ao projeto do semestre anterior com inclusão de funcionalidades</br>
+login: admin / password: admin</br>
 
 
 Centro Universitário SENAC </br>

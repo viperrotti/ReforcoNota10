@@ -100,7 +100,17 @@ function Enviar() {
   alert('Obrigado, sua aula foi agendada para o dia ' + dataFormatada + ' às ' + time.value + 'h');
 
 }
-
+function VerificarSenha() {
+  const login = document.getElementById("login");
+  var email = document.getElementById("email");
+  var password = document.getElementById("password");
+  if(email.value == 'admin' && password.value == 'admin'){
+    window.location.href="alunos_index.html";
+  }
+  else{
+    alert('Senha incorreta');
+  } 
+};
 
 
 main();
